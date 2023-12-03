@@ -1,0 +1,76 @@
+{
+  "name": "transfernft",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "@pinata/sdk": "^2.1.0",
+    "@rainbow-me/rainbowkit": "^1.2.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "alchemy-sdk": "^3.1.0",
+    "api": "^6.1.1",
+    "assert": "^2.1.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.0",
+    "browserify": "^17.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "ethers": "^6.8.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "hardhat": "^2.19.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "os": "^0.1.2",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.7.3",
+    "react-spring-carousel": "^2.0.19",
+    "slick-carousel": "^1.8.1",
+    "spinners-react": "^1.0.7",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.3.5",
+    "tty": "^1.0.1",
+    "tty-browserify": "^0.0.1",
+    "url": "^0.11.3",
+    "wagmi": "^1.4.6",
+    "web-vitals": "^2.1.4",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
